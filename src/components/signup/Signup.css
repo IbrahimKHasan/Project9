@@ -1,0 +1,25 @@
+.content2 {
+  margin: auto;
+  grid-area: content;
+  background-color: white;
+  margin-top: 50px;
+  width: 20%;
+  text-align: start;
+}
+
+.button2 {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.signup {
+  box-shadow: 5px 5px 11px 5px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 1024px) {
+  .content2 {
+    width: 80%;
+  }
+}

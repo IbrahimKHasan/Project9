@@ -1,0 +1,26 @@
+.content1 {
+  grid-area: content;
+  background-color: white;
+  z-index: 0;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.form-container {
+  width: 70%;
+  margin: auto;
+}
+
+.post {
+  width: 70%;
+  margin: 20px auto !important;
+  box-shadow: 5px 5px 11px 5px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.post-text {
+  /* word-wrap: break-word; */
+  overflow: hidden;
+}
+
+/* Responsive Section */

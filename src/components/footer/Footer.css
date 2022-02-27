@@ -1,0 +1,13 @@
+.footer {
+  grid-area: footer;
+  background-color: #0d6efd;
+  text-align: center;
+  left: 0px;
+  padding: 5px;
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0px;
+  display: inline-block;
+}

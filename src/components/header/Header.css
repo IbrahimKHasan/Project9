@@ -1,0 +1,58 @@
+.App {
+  background-color: white;
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "content"
+    "footer";
+  grid-template-rows: 10% auto 10%;
+  position: relative;
+  min-height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  grid-area: nav;
+  background-color: #0d6efd;
+  margin-bottom: 5px;
+  position: fixed;
+  width: 100%;
+  opacity: 0.8;
+  top: 0px;
+  padding: 5px;
+  font-weight: bolder;
+  z-index: 1;
+}
+.navbar-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-item1 {
+  float: left;
+  margin: 10px;
+}
+
+.nav-item2 {
+  float: right;
+  margin: 10px;
+}
+
+.content {
+  grid-area: content;
+  background-color: white;
+  margin-top: 90px;
+}
