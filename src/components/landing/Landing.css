@@ -7,7 +7,7 @@
 }
 .form-container {
   width: 70%;
-  margin: auto;
+  margin: 40px auto 5px auto;
 }
 
 .post {
@@ -23,4 +23,27 @@
   overflow: hidden;
 }
 
+.comment-color {
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 10px;
+  padding: 5px;
+}
+
 /* Responsive Section */
+@media (max-width: 426px) {
+  img {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 376px) {
+  .content1 {
+    margin-bottom: 140px;
+    margin-top: 70px;
+  }
+  img {
+    width: 260px;
+    height: 260px;
+  }
+}

@@ -235,9 +235,12 @@ function Landing() {
     <div className="content1">
       {!localStorage.getItem("email") ? (
         <img
-          style={{ boxShadow: "0px 4px 28px 0px rgba(0,0,0,0.75)" }}
-          width="470px"
-          height="470px"
+          style={{
+            boxShadow: "0px 4px 28px 0px rgba(0,0,0,0.75)",
+            marginTop: "50px",
+          }}
+          width="370px"
+          height="370px"
           src="./social.jpg"
           alt=""
         />
@@ -351,7 +354,7 @@ function Landing() {
                     })
                     .map((comment) => {
                       return (
-                        <div className="ui feed comment">
+                        <div className="ui feed comment comment-color">
                           <div className="event">
                             <div className="label">
                               <img src="./images.png" alt="user" />
